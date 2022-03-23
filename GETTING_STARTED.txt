@@ -1,0 +1,21 @@
+Updating keyboard firmware
+-------------------------------
+1. install the Arduino ide
+2. open vscode 
+3. go extension search and install "platformio"
+4. in the platformio home page click "open project"
+5. find this folder
+6. to upload program to the macro board, on the lower left should have a 
+	right pointing arrow, press that after connecting the macro board
+
+
+Reassigning macro key actions
+-------------------------------
+1. open the "KeyMaps.h" file in "src" folder
+2. reassign what actions u want in there FOLLOWING THE FORMAT; 
+	note: vscode should show suggestions on the special key when u type "KEY", if
+			it doesn't press "ctrl + space"
+	note: for non-special key (ascii keys), enclose it with single quotes, like shown in the file
+
+
+NOTE: If my firmware not working, Nick's code is in the "ref" folder; replace everything in "src/main.cpp" with that
